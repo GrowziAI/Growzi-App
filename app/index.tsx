@@ -1,6 +1,7 @@
-import { Text, View } from "react-native";
+import { Typography } from "@/components";
+import { View } from "react-native";
 
-export default function Index() {
+const Index = () => {
   return (
     <View
       style={{
@@ -9,7 +10,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Typography>Hello World!</Typography>
     </View>
   );
-}
+};
+
+export default Index;
