@@ -1,16 +1,11 @@
-import { Typography } from "@/components";
-import { View } from "react-native";
+import { View, Text} from "react-native";
 
 const Index = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Typography>Hello World!</Typography>
+    <View className="flex-1 items-center justify-center bg-white">
+      <Text className="text-2xl font-bold">
+        Hello World
+      </Text>
     </View>
   );
 };
